@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 int result = Integer.parseInt(editTextNumber.getText().toString()) / Integer.parseInt(editTextNumber2.getText().toString());
 
-                text.setText("Multiply is: " + result);
+                text.setText("Divide is: " + result);
             }
         });
 
